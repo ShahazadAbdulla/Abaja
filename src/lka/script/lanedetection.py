@@ -24,6 +24,7 @@ import json
 import threading
 import queue
 
+from ament_index_python.packages import get_package_share_directory
 # Suppress PyTorch warnings during initialization
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -255,7 +256,9 @@ class LaneDetectionNode(Node):
     def __init__(self):
         super().__init__('lane_detection_node')
         self.declare_parameter('use_gpu', True)
-        self.declare_parameter('model_path', '/home/ashy/ros2_ws/src/lka/script/models/tusimple_18.pth')
+        pkg_share_path = get_package_share_directory('lka')
+        default_model_path = os.path.join(pkg_share_path, 'models', 'tusimple_18.pth')
+        self.declare_parameter('model_path',  default_model_path)
         self.declare_parameter('display_enabled', True)
         self.declare_parameter('processing_fps', 10.0)
         self.use_gpu = self.get_parameter('use_gpu').value

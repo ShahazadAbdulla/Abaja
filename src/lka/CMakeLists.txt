@@ -37,7 +37,7 @@ endif()
 
 
 # Install launch files
-install(DIRECTORY launch
+install(DIRECTORY launch script models
   DESTINATION share/${PROJECT_NAME}
 )
 
