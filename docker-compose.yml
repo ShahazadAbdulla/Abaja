@@ -10,7 +10,7 @@ x-base-service: &base-service
 
   # IMPORTANT: This image name must EXACTLY match the IMAGE_NAME variable
   # you set inside your docker/build.sh script.
-  image: my-jetson-robot:humble
+  image: jetson-robot:humble
   
   # If you haven't built the image yet, this tells Compose how to build it.
   # It uses your project root as the context and finds the Dockerfile inside the docker/ folder.
