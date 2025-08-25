@@ -1,6 +1,0 @@
-Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/inertial_msgs -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/inertial_msgs
-Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/inertial_msgs -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/inertial_msgs
-Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs -- -j16 -l16
-Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs -- -j16 -l16
-Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs
-Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/inertial_msgs
