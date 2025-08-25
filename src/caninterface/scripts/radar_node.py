@@ -142,7 +142,7 @@ class RadarPublisherNode(Node):
     def publish_valid_tracks(self):
         # Create an instance of our custom list message
         radar_list_msg = RadarTrackList()
-        radar_list_msg.header.stamp = self.get_clock().now().to_msg()
+        
 
 
         for tid, track in self.track_manager.valid_tracks.items():
