@@ -1,0 +1,19 @@
+# Ignore ROS 2 build artifacts
+build/
+install/
+log/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pth
+*.csv
+
+# Ignore common temporary files
+*.swp
+*~
+.DS_Store
+
+# If you use VSCode, ignore its settings folder
+.vscode/
+.qodo/
