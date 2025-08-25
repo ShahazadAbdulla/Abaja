@@ -1,0 +1,4 @@
+source;share/vehiclecontrol/environment/ament_prefix_path.sh
+source;share/vehiclecontrol/environment/library_path.sh
+source;share/vehiclecontrol/environment/path.sh
+source;share/vehiclecontrol/environment/pythonpath.sh

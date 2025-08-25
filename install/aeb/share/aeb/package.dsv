@@ -1,0 +1,8 @@
+source;share/aeb/hook/cmake_prefix_path.ps1
+source;share/aeb/hook/cmake_prefix_path.dsv
+source;share/aeb/hook/cmake_prefix_path.sh
+source;share/aeb/local_setup.bash
+source;share/aeb/local_setup.dsv
+source;share/aeb/local_setup.ps1
+source;share/aeb/local_setup.sh
+source;share/aeb/local_setup.zsh

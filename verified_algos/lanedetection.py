@@ -2,6 +2,7 @@
 # Enhanced Lane Detection Node with Robust Center Line Calculation
 # Current Date and Time (UTC): 2025-06-20 00:23:49
 # Current User's Login: Ashish480
+# MODIFIED: Changed image source to /dev/video3
 
 import sys
 import os
@@ -255,7 +256,9 @@ class LaneDetectionNode(Node):
     def __init__(self):
         super().__init__('lane_detection_node')
         self.declare_parameter('use_gpu', True)
-        self.declare_parameter('model_path', '/home/ashy/ros2_ws/src/lka/script/models/tusimple_18.pth')
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.declare_parameter('model_path', os.path.join(script_dir, 'models', 'tusimple_18.pth'))
+
         self.declare_parameter('display_enabled', True)
         self.declare_parameter('processing_fps', 10.0)
         self.use_gpu = self.get_parameter('use_gpu').value
@@ -274,7 +277,21 @@ class LaneDetectionNode(Node):
         
         self._initialize_model()
         self.lane_publisher = self.create_publisher(String, '/lane_coordinates', 10)
-        self.image_subscription = self.create_subscription(RosImage, '/RGBImage', self.image_callback, 10)
+
+        # ===== CHANGE START: Use direct video capture instead of ROS topic =====
+        self.get_logger().info("Attempting to open video source /dev/video3...")
+        # Corresponds to /dev/video3
+        self.cap = cv2.VideoCapture(2)
+        if not self.cap.isOpened():
+            self.get_logger().error(f"❌ Failed to open video source at index {self.cap}. Please check camera connection and permissions.")
+            rclpy.shutdown()
+            return
+
+        self.get_logger().info(f"✅ Successfully opened video source /dev/video{self.cap}")
+        # Timer to capture frames from the video source
+        self.capture_timer = self.create_timer(1.0 / 30.0, self.capture_frame_callback) # Capture at 30 FPS
+        # ===== CHANGE END =====
+        
         self.result_timer = self.create_timer(1.0 / self.processing_fps, self.publish_results)
         self.processing_thread = threading.Thread(target=self._processing_worker, daemon=True)
         self.processing_thread.start()
@@ -286,6 +303,7 @@ class LaneDetectionNode(Node):
         print(f"👤 User: Ashish480")
         print(f"🕐 Started: 2025-06-20 00:23:49 UTC")
         print(f"🎯 Mission: GUARANTEED center line for Stanley LKA")
+        print(f"📹 Video Source: /dev/video{self.cap}")
         print("🛣️" + "="*60)
         
         self.get_logger().info("🛣️ Enhanced Lane Detection Node Started by Ashish480")
@@ -320,20 +338,36 @@ class LaneDetectionNode(Node):
         y = (img_h - y_px) * (img_h_m / img_h)
         return (x, y)
 
-    def image_callback(self, msg: RosImage):
+    # ===== CHANGE START: New callback for capturing frames from camera =====
+    def capture_frame_callback(self):
+        """Reads a frame from the video capture and adds it to the processing queue."""
+        if not self.cap.isOpened():
+            self.get_logger().warn("Video source is not open. Skipping frame capture.")
+            return
+        
+        ret, cv_image = self.cap.read()
+        if not ret:
+            self.get_logger().warn("Failed to capture a frame from the video source.")
+            return
+
         try:
-            cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+            # Add the new frame to the queue for processing
             self.image_queue.put_nowait((cv_image, time.time()))
             self.frame_count += 1
         except queue.Full:
-            # Remove oldest frame if queue is full
+            # Queue is full, so we drop the oldest frame and add the new one
             try:
                 self.image_queue.get_nowait()
                 self.image_queue.put_nowait((cv_image, time.time()))
             except queue.Empty:
-                pass
+                pass # Should not happen, but good to handle
         except Exception as e:
-            self.get_logger().debug(f"Image callback error: {e}")
+            self.get_logger().debug(f"Frame capture callback error: {e}")
+    # ===== CHANGE END =====
+    
+    # ===== CHANGE: REMOVED the old image_callback that used ROS messages =====
+    # def image_callback(self, msg: RosImage):
+    #     ... (This function has been deleted)
 
     def _processing_worker(self):
         """Background thread for lane detection processing"""
@@ -599,6 +633,11 @@ class LaneDetectionNode(Node):
 
     def destroy_node(self):
         print("🛑 Lane Detection Node shutting down...")
+        # ===== CHANGE START: Release video capture device =====
+        if hasattr(self, 'cap') and self.cap.isOpened():
+            self.cap.release()
+            self.get_logger().info("Video source released.")
+        # ===== CHANGE END =====
         try:
             if self.display_enabled:
                 cv2.destroyAllWindows()
@@ -616,9 +655,11 @@ def main(args=None):
     node = None
     try:
         node = LaneDetectionNode()
-        rclpy.spin(node)
+        # Only spin if the node was successfully initialized (camera opened)
+        if node and node.cap.isOpened():
+            rclpy.spin(node)
     except KeyboardInterrupt:
-        print("🛑 Lane Detection shutting down by user request")
+        print("\n🛑 Lane Detection shutting down by user request")
     except Exception as e:
         print(f"❌ Lane Detection error: {e}")
     finally:

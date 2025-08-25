@@ -1,0 +1,6 @@
+{
+  "package_name": "vehiclecontrol",
+  "non_idl_tuples": [
+    "/home/ashy/abaja_ros2_dev/src/vehiclecontrol:msg/Control.msg"
+  ]
+}
