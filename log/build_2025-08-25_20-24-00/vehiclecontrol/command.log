@@ -1,4 +1,0 @@
-Invoking command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/abaja_ros2_dev/build/vehiclecontrol -- -j16 -l16
-Invoked command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/abaja_ros2_dev/build/vehiclecontrol -- -j16 -l16
-Invoking command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/abaja_ros2_dev/build/vehiclecontrol
-Invoked command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/abaja_ros2_dev/build/vehiclecontrol

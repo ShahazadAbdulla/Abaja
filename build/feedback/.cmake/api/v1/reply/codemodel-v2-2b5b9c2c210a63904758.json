@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fb8ff8138b84d8b067b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "feedback__py",
+					"jsonFile" : "directory-feedback__py-e4f8605977458d95a5ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/feedback__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "feedback",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_feedback_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_feedback_egg-c411782a9c508f61469b.json",
+					"name" : "ament_cmake_python_build_feedback_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_feedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_feedback-1d39bcf7e535c8faaf38.json",
+					"name" : "ament_cmake_python_copy_feedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback-dd6290d737c9e93c3e52.json",
+					"name" : "feedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__cpp-40bf70773cbd7e2635c9.json",
+					"name" : "feedback__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "feedback__py::@98d2c9bf99cf90633aa3",
+					"jsonFile" : "target-feedback__py-ec8ff836128d72f18286.json",
+					"name" : "feedback__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_generator_c-bc64766a81ae53b79fe8.json",
+					"name" : "feedback__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_generator_py-86d6e282b4b795c408b6.json",
+					"name" : "feedback__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_c-04cecfd77c70505403f8.json",
+					"name" : "feedback__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_c__pyext-b161087a06c7a719bb75.json",
+					"name" : "feedback__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_cpp-ae2e4e73fc880afc3be2.json",
+					"name" : "feedback__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_fastrtps_c-af041622a27cc20ce719.json",
+					"name" : "feedback__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_fastrtps_c__pyext-07541f46a0bf43657042.json",
+					"name" : "feedback__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_fastrtps_cpp-f6aa74b2ad94b382abb8.json",
+					"name" : "feedback__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_introspection_c-22966a66caaad4a14fff.json",
+					"name" : "feedback__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_introspection_c__pyext-7c1ea13b372f3e8cc812.json",
+					"name" : "feedback__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback__rosidl_typesupport_introspection_cpp-e5c65c90a70a14b53dbb.json",
+					"name" : "feedback__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feedback_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feedback_uninstall-e40080437756f3e2f16a.json",
+					"name" : "feedback_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f550ee350610b1276f01.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback",
+		"source" : "/home/nvidia/ROS2-ABAJA-DEV-main/src/feedback"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

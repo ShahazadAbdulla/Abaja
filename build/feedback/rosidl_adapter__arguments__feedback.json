@@ -1,6 +1,6 @@
 {
   "package_name": "feedback",
   "non_idl_tuples": [
-    "/home/ashy/abaja_ros2_dev/src/feedback:msg/Velocity.msg"
+    "/home/nvidia/ROS2-ABAJA-DEV-main/src/feedback:msg/Velocity.msg"
   ]
 }

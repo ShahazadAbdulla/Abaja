@@ -1,6 +1,0 @@
-Invoking command in '/home/ashy/abaja_ros2_dev/build/feedback': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/abaja_ros2_dev/src/feedback -DCMAKE_INSTALL_PREFIX=/home/ashy/abaja_ros2_dev/install/feedback
-Invoked command in '/home/ashy/abaja_ros2_dev/build/feedback' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/abaja_ros2_dev/src/feedback -DCMAKE_INSTALL_PREFIX=/home/ashy/abaja_ros2_dev/install/feedback
-Invoking command in '/home/ashy/abaja_ros2_dev/build/feedback': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/abaja_ros2_dev/build/feedback -- -j16 -l16
-Invoked command in '/home/ashy/abaja_ros2_dev/build/feedback' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/abaja_ros2_dev/build/feedback -- -j16 -l16
-Invoking command in '/home/ashy/abaja_ros2_dev/build/feedback': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/abaja_ros2_dev/build/feedback
-Invoked command in '/home/ashy/abaja_ros2_dev/build/feedback' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/abaja_ros2_dev/build/feedback

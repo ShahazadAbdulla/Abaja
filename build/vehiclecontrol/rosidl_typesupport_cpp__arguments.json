@@ -1,9 +1,9 @@
 {
   "package_name": "vehiclecontrol",
-  "output_dir": "/home/ashy/abaja_ros2_dev/build/vehiclecontrol/rosidl_typesupport_cpp/vehiclecontrol",
+  "output_dir": "/home/nvidia/ROS2-ABAJA-DEV-main/build/vehiclecontrol/rosidl_typesupport_cpp/vehiclecontrol",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/ashy/abaja_ros2_dev/build/vehiclecontrol/rosidl_adapter/vehiclecontrol:msg/Control.idl"
+    "/home/nvidia/ROS2-ABAJA-DEV-main/build/vehiclecontrol/rosidl_adapter/vehiclecontrol:msg/Control.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -16,7 +16,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/ashy/abaja_ros2_dev/build/vehiclecontrol/rosidl_adapter/vehiclecontrol/msg/Control.idl",
+    "/home/nvidia/ROS2-ABAJA-DEV-main/build/vehiclecontrol/rosidl_adapter/vehiclecontrol/msg/Control.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]

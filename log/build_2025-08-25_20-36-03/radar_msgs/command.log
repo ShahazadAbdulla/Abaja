@@ -1,0 +1,6 @@
+Invoking command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/ROS2-ABAJA-DEV-main/src/radar_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/ROS2-ABAJA-DEV-main/install/radar_msgs
+Invoked command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/ROS2-ABAJA-DEV-main/src/radar_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/ROS2-ABAJA-DEV-main/install/radar_msgs
+Invoking command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs -- -j6 -l6
+Invoked command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs -- -j6 -l6
+Invoking command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs
+Invoked command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ROS2-ABAJA-DEV-main/build/radar_msgs

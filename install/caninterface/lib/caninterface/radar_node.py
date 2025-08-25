@@ -84,7 +84,7 @@ class RadarPublisherNode(Node):
         self.get_logger().info("--- Starting RADAR Publisher Node ---")
 
         # --- Publisher using the CUSTOM message type ---
-        self.publisher_ = self.create_publisher(RadarObjectList, '/radar/valid_tracks', 10)
+        self.publisher_ = self.create_publisher(RadarTrackList, '/RadarObjects', 10)
         
         # --- Logging Setup ---
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -142,7 +142,7 @@ class RadarPublisherNode(Node):
 
     def publish_valid_tracks(self):
         # Create an instance of our custom list message
-        radar_list_msg = RadarObjectList()
+        radar_list_msg = RadarTrackList()
         radar_list_msg.header.stamp = self.get_clock().now().to_msg()
         radar_list_msg.header.frame_id = "radar_link" # The coordinate frame of the sensor
 

@@ -4,6 +4,3 @@ radar_msgs.egg-info/PKG-INFO
 radar_msgs.egg-info/SOURCES.txt
 radar_msgs.egg-info/dependency_links.txt
 radar_msgs.egg-info/top_level.txt
-radar_msgs/msg/__init__.py
-radar_msgs/msg/_radar_track.py
-radar_msgs/msg/_radar_track_list.py

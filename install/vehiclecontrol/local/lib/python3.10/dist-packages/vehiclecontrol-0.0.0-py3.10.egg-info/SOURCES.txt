@@ -4,5 +4,3 @@ vehiclecontrol.egg-info/PKG-INFO
 vehiclecontrol.egg-info/SOURCES.txt
 vehiclecontrol.egg-info/dependency_links.txt
 vehiclecontrol.egg-info/top_level.txt
-vehiclecontrol/msg/__init__.py
-vehiclecontrol/msg/_control.py

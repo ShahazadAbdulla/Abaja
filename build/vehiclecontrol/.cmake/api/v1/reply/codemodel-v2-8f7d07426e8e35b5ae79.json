@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-33fbe2ccf8d328503a10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vehiclecontrol__py",
+					"jsonFile" : "directory-vehiclecontrol__py-67b32534464b0454fb5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nvidia/ROS2-ABAJA-DEV-main/build/vehiclecontrol/vehiclecontrol__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vehiclecontrol",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vehiclecontrol_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vehiclecontrol_egg-8c164d375c5e295aac3f.json",
+					"name" : "ament_cmake_python_build_vehiclecontrol_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vehiclecontrol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vehiclecontrol-0c3e9a18fa84519b8678.json",
+					"name" : "ament_cmake_python_copy_vehiclecontrol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2bc1700880bb77b9e0d5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol-34891fd798456220323e.json",
+					"name" : "vehiclecontrol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__cpp-4dc09aa602a0c1163f3e.json",
+					"name" : "vehiclecontrol__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vehiclecontrol__py::@997dff081f01906941b7",
+					"jsonFile" : "target-vehiclecontrol__py-b15b2723a16859a4c1f0.json",
+					"name" : "vehiclecontrol__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_generator_c-2973e2b6a7a3f0db3d99.json",
+					"name" : "vehiclecontrol__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_generator_py-d37e715e1fb4e4ad1fce.json",
+					"name" : "vehiclecontrol__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_c-8fe215d527a38cab1cee.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_c__pyext-3d92ea9a68b81d289f69.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_cpp-a74876e4045b2132ef3d.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_fastrtps_c-f749943cd96b6cf04855.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_fastrtps_c__pyext-33d6019eabe067c831a3.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_fastrtps_cpp-67ddaa54d34d42133260.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_introspection_c-686b1b7555eeee7f8c54.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_introspection_c__pyext-fa95b0a29bc9c27f8e79.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol__rosidl_typesupport_introspection_cpp-06ada8edfd0fe6e90795.json",
+					"name" : "vehiclecontrol__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_uninstall-409c6e94e5ed7ca8d298.json",
+					"name" : "vehiclecontrol_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/ROS2-ABAJA-DEV-main/build/vehiclecontrol",
+		"source" : "/home/nvidia/ROS2-ABAJA-DEV-main/src/vehiclecontrol"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
