@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "feedback__py",
+		"source" : "/home/ashy/abaja_ros2_dev/build/feedback/feedback__py"
+	}
+}

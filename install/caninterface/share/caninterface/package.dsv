@@ -1,0 +1,8 @@
+source;share/caninterface/hook/cmake_prefix_path.ps1
+source;share/caninterface/hook/cmake_prefix_path.dsv
+source;share/caninterface/hook/cmake_prefix_path.sh
+source;share/caninterface/local_setup.bash
+source;share/caninterface/local_setup.dsv
+source;share/caninterface/local_setup.ps1
+source;share/caninterface/local_setup.sh
+source;share/caninterface/local_setup.zsh

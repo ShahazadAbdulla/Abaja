@@ -1,0 +1,2 @@
+source;share/caninterface/environment/ament_prefix_path.sh
+source;share/caninterface/environment/path.sh

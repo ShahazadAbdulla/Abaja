@@ -1,0 +1,144 @@
+[0.041s] Invoking command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/abaja_ros2_dev/build/vehiclecontrol -- -j16 -l16
+[0.125s] [  9%] Built target vehiclecontrol__rosidl_generator_c
+[0.126s] [ 12%] Built target vehiclecontrol__cpp
+[0.177s] [ 12%] Built target ament_cmake_python_copy_vehiclecontrol
+[0.191s] [ 22%] Built target vehiclecontrol__rosidl_typesupport_fastrtps_cpp
+[0.198s] [ 38%] Built target vehiclecontrol__rosidl_typesupport_c
+[0.199s] [ 41%] Built target vehiclecontrol__rosidl_typesupport_fastrtps_c
+[0.204s] [ 51%] Built target vehiclecontrol__rosidl_typesupport_introspection_c
+[0.210s] [ 61%] Built target vehiclecontrol__rosidl_typesupport_cpp
+[0.215s] [ 70%] Built target vehiclecontrol__rosidl_typesupport_introspection_cpp
+[0.257s] [ 70%] Built target vehiclecontrol
+[0.290s] [ 74%] Built target vehiclecontrol__py
+[0.326s] [ 80%] Built target vehiclecontrol__rosidl_generator_py
+[0.365s] [ 93%] Built target vehiclecontrol__rosidl_typesupport_fastrtps_c__pyext
+[0.365s] [ 93%] Built target vehiclecontrol__rosidl_typesupport_introspection_c__pyext
+[0.369s] [100%] Built target vehiclecontrol__rosidl_typesupport_c__pyext
+[0.496s] running egg_info
+[0.516s] writing vehiclecontrol.egg-info/PKG-INFO
+[0.516s] writing dependency_links to vehiclecontrol.egg-info/dependency_links.txt
+[0.516s] writing top-level names to vehiclecontrol.egg-info/top_level.txt
+[0.570s] reading manifest file 'vehiclecontrol.egg-info/SOURCES.txt'
+[0.571s] writing manifest file 'vehiclecontrol.egg-info/SOURCES.txt'
+[0.610s] [100%] Built target ament_cmake_python_build_vehiclecontrol_egg
+[0.624s] Invoked command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/abaja_ros2_dev/build/vehiclecontrol -- -j16 -l16
+[0.626s] Invoking command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/abaja_ros2_dev/build/vehiclecontrol
+[0.633s] -- Install configuration: ""
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/ament_index/resource_index/rosidl_interfaces/vehiclecontrol
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__struct.h
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__functions.c
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__functions.h
+[0.633s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.h
+[0.634s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/control.h
+[0.634s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_generator_c__visibility_control.h
+[0.634s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/library_path.sh
+[0.634s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/library_path.dsv
+[0.635s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_generator_c.so
+[0.637s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[0.637s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[0.637s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[0.637s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[0.637s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_fastrtps_c.so
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_introspection_c.h
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.c
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_introspection_c.so
+[0.638s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_c.so
+[0.639s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[0.639s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__builder.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__struct.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__traits.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/control.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/dds_fastrtps
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.640s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_fastrtps_cpp.so
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.cpp
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[0.641s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_introspection_cpp.so
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_cpp.so
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/pythonpath.sh
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/pythonpath.dsv
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info
+[0.642s] -- Installing: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/top_level.txt
+[0.642s] -- Installing: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/PKG-INFO
+[0.642s] -- Installing: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.642s] -- Installing: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_c.c
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/__init__.py
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_introspection_c.c
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg
+[0.642s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/__init__.py
+[0.643s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/_control.py
+[0.643s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/_control_s.c
+[0.643s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/libvehiclecontrol__rosidl_generator_py.so
+[0.663s] Listing '/home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol'...
+[0.663s] Listing '/home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg'...
+[0.667s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_generator_py.so
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/msg/Control.idl
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/msg/Control.msg
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/ament_index/resource_index/package_run_dependencies/vehiclecontrol
+[0.668s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/ament_index/resource_index/parent_prefix_path/vehiclecontrol
+[0.669s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/ament_prefix_path.sh
+[0.669s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/ament_prefix_path.dsv
+[0.669s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/path.sh
+[0.669s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/environment/path.dsv
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/local_setup.bash
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/local_setup.sh
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/local_setup.zsh
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/local_setup.dsv
+[0.670s] -- Installing: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/package.dsv
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/ament_index/resource_index/packages/vehiclecontrol
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_cExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_cppExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cppExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cppExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cppExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_pyExport.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_pyExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/rosidl_cmake-extras.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.670s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_libraries-extras.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_targets-extras.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrolConfig.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrolConfig-version.cmake
+[0.671s] -- Up-to-date: /home/ashy/abaja_ros2_dev/install/vehiclecontrol/share/vehiclecontrol/package.xml
+[0.697s] Invoked command in '/home/ashy/abaja_ros2_dev/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/abaja_ros2_dev/build/vehiclecontrol

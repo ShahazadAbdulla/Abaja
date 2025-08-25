@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from inertial_msgs/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module inertial_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Pose.msg" "\n"
+      "" "\n"
+      "This message contains inertial sensor data (pose, velocity, orientation, etc.)" "\n"
+      "" "\n"
+      "Position in X, Y, Z from InertialSensor[Nb].Pos_0[0..2]")
+    struct Pose {
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "Velocity from InertialSensor[Nb].Vel_0[0..1] and Vehicle.v (for the Z component)")
+      geometry_msgs::msg::Vector3 velocity;
+
+      @verbatim (language="comment", text=
+        "Orientation in X, Y, Z from Vhcl.Pitch, Vhcl.Roll, Vhcl.Yaw")
+      geometry_msgs::msg::Vector3 orientation;
+
+      @verbatim (language="comment", text=
+        "Angular velocity (for example, using Vhcl.PitchVel, Vhcl.RollVel, Vhcl.YawRate or InertialSensor[Nb].Omega_0[0..2])")
+      geometry_msgs::msg::Vector3 angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Linear acceleration in X, Y, Z")
+      geometry_msgs::msg::Vector3 linear_acceleration;
+    };
+  };
+};
