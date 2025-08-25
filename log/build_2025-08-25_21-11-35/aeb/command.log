@@ -1,0 +1,6 @@
+Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/aeb': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/aeb -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/aeb
+Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/aeb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/aeb -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/aeb
+Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/aeb': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/aeb -- -j16 -l16
+Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/aeb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/aeb -- -j16 -l16
+Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/aeb': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/aeb
+Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/aeb' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/aeb

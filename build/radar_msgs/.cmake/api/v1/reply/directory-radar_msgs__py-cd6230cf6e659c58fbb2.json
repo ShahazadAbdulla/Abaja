@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "radar_msgs__py",
+		"source" : "/home/ashy/ROS2-ABAJA-DEV/build/radar_msgs/radar_msgs__py"
+	}
+}

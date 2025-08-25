@@ -1,0 +1,6 @@
+Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/caninterface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/caninterface -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/caninterface
+Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/caninterface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/caninterface -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/caninterface
+Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/caninterface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/caninterface -- -j16 -l16
+Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/caninterface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/caninterface -- -j16 -l16
+Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/caninterface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/caninterface
+Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/caninterface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/caninterface

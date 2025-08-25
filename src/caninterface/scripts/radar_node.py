@@ -1,5 +1,4 @@
-# This is the full content for ~/ros2_ws/src/radar_node/radar_node/radar_publisher_node.py
-
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 # --- IMPORT YOUR NEW CUSTOM MESSAGES ---
@@ -144,20 +143,20 @@ class RadarPublisherNode(Node):
         # Create an instance of our custom list message
         radar_list_msg = RadarTrackList()
         radar_list_msg.header.stamp = self.get_clock().now().to_msg()
-        radar_list_msg.header.frame_id = "radar_link" # The coordinate frame of the sensor
+
 
         for tid, track in self.track_manager.valid_tracks.items():
             data = track['data']
             
             # Create an instance of our custom single object message
-            obj_msg = RadarObject()
+            obj_msg = RadarTrackList()
             
             # Populate the message fields with the filtered data
             obj_msg.tracking_id = tid
             obj_msg.x_distance = data['x']
             obj_msg.y_distance = data['y']
-            obj_msg.vx_speed = data['vx']
-            obj_msg.vy_speed = data['vy']
+            obj_msg.vx= data['vx']
+            obj_msg.vy = data['vy']
             
             # Add the completed object message to the list
             radar_list_msg.objects.append(obj_msg)

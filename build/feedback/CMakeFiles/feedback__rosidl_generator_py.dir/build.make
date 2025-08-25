@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nvidia/ROS2-ABAJA-DEV-main/src/feedback
+CMAKE_SOURCE_DIR = /home/ashy/ROS2-ABAJA-DEV/src/feedback
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback
+CMAKE_BINARY_DIR = /home/ashy/ROS2-ABAJA-DEV/build/feedback
 
 # Include any dependencies generated for this target.
 include CMakeFiles/feedback__rosidl_generator_py.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/feedback__rosidl_generator_py.dir/flags.make
 CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o: CMakeFiles/feedback__rosidl_generator_py.dir/flags.make
 CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o: rosidl_generator_py/feedback/msg/_velocity_s.c
 CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o: CMakeFiles/feedback__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o -MF CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o.d -o CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o -c /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/rosidl_generator_py/feedback/msg/_velocity_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ashy/ROS2-ABAJA-DEV/build/feedback/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o -MF CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o.d -o CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o -c /home/ashy/ROS2-ABAJA-DEV/build/feedback/rosidl_generator_py/feedback/msg/_velocity_s.c
 
 CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/rosidl_generator_py/feedback/msg/_velocity_s.c > CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ashy/ROS2-ABAJA-DEV/build/feedback/rosidl_generator_py/feedback/msg/_velocity_s.c > CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.i
 
 CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/rosidl_generator_py/feedback/msg/_velocity_s.c -o CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ashy/ROS2-ABAJA-DEV/build/feedback/rosidl_generator_py/feedback/msg/_velocity_s.c -o CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.s
 
 # Object files for target feedback__rosidl_generator_py
 feedback__rosidl_generator_py_OBJECTS = \
@@ -92,17 +92,17 @@ feedback__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: CMakeFiles/feedback__rosidl_generator_py.dir/rosidl_generator_py/feedback/msg/_velocity_s.c.o
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: CMakeFiles/feedback__rosidl_generator_py.dir/build.make
-rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: libfeedback__rosidl_typesupport_c.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: libfeedback__rosidl_generator_c.so
-rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so: CMakeFiles/feedback__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ashy/ROS2-ABAJA-DEV/build/feedback/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/feedback/libfeedback__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/feedback__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +114,6 @@ CMakeFiles/feedback__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/feedback__rosidl_generator_py.dir/clean
 
 CMakeFiles/feedback__rosidl_generator_py.dir/depend:
-	cd /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/ROS2-ABAJA-DEV-main/src/feedback /home/nvidia/ROS2-ABAJA-DEV-main/src/feedback /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/CMakeFiles/feedback__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ashy/ROS2-ABAJA-DEV/build/feedback && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ashy/ROS2-ABAJA-DEV/src/feedback /home/ashy/ROS2-ABAJA-DEV/src/feedback /home/ashy/ROS2-ABAJA-DEV/build/feedback /home/ashy/ROS2-ABAJA-DEV/build/feedback /home/ashy/ROS2-ABAJA-DEV/build/feedback/CMakeFiles/feedback__rosidl_generator_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/feedback__rosidl_generator_py.dir/depend
 

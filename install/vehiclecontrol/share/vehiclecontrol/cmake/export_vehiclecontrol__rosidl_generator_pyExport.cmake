@@ -54,7 +54,7 @@ endif()
 add_library(vehiclecontrol::vehiclecontrol__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(vehiclecontrol::vehiclecontrol__rosidl_generator_py PROPERTIES
-  INTERFACE_LINK_LIBRARIES "vehiclecontrol::vehiclecontrol__rosidl_generator_c;/usr/lib/aarch64-linux-gnu/libpython3.10.so;vehiclecontrol::vehiclecontrol__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_generator_py"
+  INTERFACE_LINK_LIBRARIES "vehiclecontrol::vehiclecontrol__rosidl_generator_c;/usr/lib/x86_64-linux-gnu/libpython3.10.so;vehiclecontrol::vehiclecontrol__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_generator_py"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

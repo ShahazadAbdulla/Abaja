@@ -1,6 +1,6 @@
 {
   "package_name": "vehiclecontrol",
   "non_idl_tuples": [
-    "/home/nvidia/ROS2-ABAJA-DEV-main/src/vehiclecontrol:msg/Control.msg"
+    "/home/ashy/ROS2-ABAJA-DEV/src/vehiclecontrol:msg/Control.msg"
   ]
 }

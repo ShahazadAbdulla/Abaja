@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nvidia/ROS2-ABAJA-DEV-main/src/caninterface
+CMAKE_SOURCE_DIR = /home/ashy/ROS2-ABAJA-DEV/src/caninterface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nvidia/ROS2-ABAJA-DEV-main/build/caninterface
+CMAKE_BINARY_DIR = /home/ashy/ROS2-ABAJA-DEV/build/caninterface
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nvidia/ROS2-ABAJA-DEV-main/build/caninterface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/ROS2-ABAJA-DEV-main/src/caninterface /home/nvidia/ROS2-ABAJA-DEV-main/src/caninterface /home/nvidia/ROS2-ABAJA-DEV-main/build/caninterface /home/nvidia/ROS2-ABAJA-DEV-main/build/caninterface /home/nvidia/ROS2-ABAJA-DEV-main/build/caninterface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ashy/ROS2-ABAJA-DEV/build/caninterface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ashy/ROS2-ABAJA-DEV/src/caninterface /home/ashy/ROS2-ABAJA-DEV/src/caninterface /home/ashy/ROS2-ABAJA-DEV/build/caninterface /home/ashy/ROS2-ABAJA-DEV/build/caninterface /home/ashy/ROS2-ABAJA-DEV/build/caninterface/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

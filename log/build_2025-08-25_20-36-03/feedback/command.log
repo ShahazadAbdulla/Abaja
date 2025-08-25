@@ -1,6 +1,0 @@
-Invoking command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/ROS2-ABAJA-DEV-main/src/feedback -DCMAKE_INSTALL_PREFIX=/home/nvidia/ROS2-ABAJA-DEV-main/install/feedback
-Invoked command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/ROS2-ABAJA-DEV-main/src/feedback -DCMAKE_INSTALL_PREFIX=/home/nvidia/ROS2-ABAJA-DEV-main/install/feedback
-Invoking command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback -- -j6 -l6
-Invoked command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback -- -j6 -l6
-Invoking command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback
-Invoked command in '/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback

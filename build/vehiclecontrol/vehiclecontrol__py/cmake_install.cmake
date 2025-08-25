@@ -1,8 +1,8 @@
-# Install script for directory: /home/nvidia/ROS2-ABAJA-DEV-main/build/vehiclecontrol/vehiclecontrol__py
+# Install script for directory: /home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol/vehiclecontrol__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nvidia/ROS2-ABAJA-DEV-main/install/vehiclecontrol")
+  set(CMAKE_INSTALL_PREFIX "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

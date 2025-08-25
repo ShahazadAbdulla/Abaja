@@ -1,9 +1,9 @@
 {
   "package_name": "feedback",
-  "output_dir": "/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/rosidl_typesupport_introspection_c/feedback",
+  "output_dir": "/home/ashy/ROS2-ABAJA-DEV/build/feedback/rosidl_typesupport_introspection_c/feedback",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/rosidl_adapter/feedback:msg/Velocity.idl"
+    "/home/ashy/ROS2-ABAJA-DEV/build/feedback/rosidl_adapter/feedback:msg/Velocity.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -18,7 +18,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/rosidl_adapter/feedback/msg/Velocity.idl",
+    "/home/ashy/ROS2-ABAJA-DEV/build/feedback/rosidl_adapter/feedback/msg/Velocity.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nvidia/ROS2-ABAJA-DEV-main/build/feedback/feedback__py
+# Install script for directory: /home/ashy/ROS2-ABAJA-DEV/build/feedback/feedback__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nvidia/ROS2-ABAJA-DEV-main/install/feedback")
+  set(CMAKE_INSTALL_PREFIX "/home/ashy/ROS2-ABAJA-DEV/install/feedback")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

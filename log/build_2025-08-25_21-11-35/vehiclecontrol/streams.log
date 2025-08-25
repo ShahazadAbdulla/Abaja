@@ -1,0 +1,225 @@
+[0.029s] Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/vehiclecontrol -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.301s] -- Detecting C compile features
+[0.301s] -- Detecting C compile features - done
+[0.306s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.413s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.765s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.858s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.870s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.139s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.492s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.495s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.515s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.515s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.515s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.515s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.535s] -- Found PythonExtra: .so  
+[1.565s] -- Configuring done
+[1.591s] -- Generating done
+[1.599s] -- Build files have been written to: /home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol
+[1.605s] Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/ROS2-ABAJA-DEV/src/vehiclecontrol -DCMAKE_INSTALL_PREFIX=/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol
+[1.606s] Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol -- -j16 -l16
+[1.638s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.646s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.654s] [  6%] Built target ament_cmake_python_copy_vehiclecontrol
+[1.846s] [  6%] Built target vehiclecontrol__cpp
+[1.858s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.858s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.859s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.865s] [ 19%] [32mBuilding C object CMakeFiles/vehiclecontrol__rosidl_generator_c.dir/rosidl_generator_c/vehiclecontrol/msg/detail/control__functions.c.o[0m
+[1.895s] running egg_info
+[1.920s] creating vehiclecontrol.egg-info
+[1.920s] writing vehiclecontrol.egg-info/PKG-INFO
+[1.920s] writing dependency_links to vehiclecontrol.egg-info/dependency_links.txt
+[1.920s] writing top-level names to vehiclecontrol.egg-info/top_level.txt
+[1.920s] writing manifest file 'vehiclecontrol.egg-info/SOURCES.txt'
+[1.938s] [ 22%] [32m[1mLinking C shared library libvehiclecontrol__rosidl_generator_c.so[0m
+[1.991s] reading manifest file 'vehiclecontrol.egg-info/SOURCES.txt'
+[1.993s] writing manifest file 'vehiclecontrol.egg-info/SOURCES.txt'
+[1.993s] [ 22%] Built target vehiclecontrol__rosidl_generator_c
+[2.008s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.016s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.019s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.048s] [ 32%] Built target ament_cmake_python_build_vehiclecontrol_egg
+[2.159s] [ 35%] [32mBuilding CXX object CMakeFiles/vehiclecontrol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehiclecontrol/msg/control__type_support.cpp.o[0m
+[2.185s] [ 38%] [32mBuilding CXX object CMakeFiles/vehiclecontrol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehiclecontrol/msg/detail/control__type_support.cpp.o[0m
+[2.220s] [ 41%] [32mBuilding CXX object CMakeFiles/vehiclecontrol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehiclecontrol/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[2.376s] [ 45%] [32mBuilding C object CMakeFiles/vehiclecontrol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehiclecontrol/msg/detail/control__type_support.c.o[0m
+[2.407s] [ 48%] [32mBuilding CXX object CMakeFiles/vehiclecontrol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehiclecontrol/msg/detail/control__type_support_c.cpp.o[0m
+[2.437s] [ 51%] [32mBuilding CXX object CMakeFiles/vehiclecontrol__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehiclecontrol/msg/control__type_support.cpp.o[0m
+[2.448s] [ 54%] [32m[1mLinking C shared library libvehiclecontrol__rosidl_typesupport_introspection_c.so[0m
+[2.507s] [ 58%] [32m[1mLinking CXX shared library libvehiclecontrol__rosidl_typesupport_c.so[0m
+[2.529s] [ 58%] Built target vehiclecontrol__rosidl_typesupport_introspection_c
+[2.618s] [ 58%] Built target vehiclecontrol__rosidl_typesupport_c
+[2.672s] [ 61%] [32m[1mLinking CXX shared library libvehiclecontrol__rosidl_typesupport_cpp.so[0m
+[2.788s] [ 61%] Built target vehiclecontrol__rosidl_typesupport_cpp
+[2.881s] [ 64%] [32m[1mLinking CXX shared library libvehiclecontrol__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.990s] [ 67%] [32m[1mLinking CXX shared library libvehiclecontrol__rosidl_typesupport_introspection_cpp.so[0m
+[3.021s] [ 70%] [32m[1mLinking CXX shared library libvehiclecontrol__rosidl_typesupport_fastrtps_c.so[0m
+[3.060s] [ 70%] Built target vehiclecontrol__rosidl_typesupport_fastrtps_cpp
+[3.080s] [ 70%] Built target vehiclecontrol__rosidl_typesupport_introspection_cpp
+[3.177s] [ 70%] Built target vehiclecontrol__rosidl_typesupport_fastrtps_c
+[3.202s] [ 70%] Built target vehiclecontrol
+[3.235s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.477s] [ 74%] Built target vehiclecontrol__py
+[3.497s] [ 77%] [32mBuilding C object CMakeFiles/vehiclecontrol__rosidl_generator_py.dir/rosidl_generator_py/vehiclecontrol/msg/_control_s.c.o[0m
+[3.582s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/vehiclecontrol/libvehiclecontrol__rosidl_generator_py.so[0m
+[3.616s] [ 80%] Built target vehiclecontrol__rosidl_generator_py
+[3.632s] [ 83%] [32mBuilding C object CMakeFiles/vehiclecontrol__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.632s] [ 87%] [32mBuilding C object CMakeFiles/vehiclecontrol__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.632s] [ 90%] [32mBuilding C object CMakeFiles/vehiclecontrol__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_c.c.o[0m
+[3.706s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.706s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.710s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.737s] [100%] Built target vehiclecontrol__rosidl_typesupport_introspection_c__pyext
+[3.737s] [100%] Built target vehiclecontrol__rosidl_typesupport_fastrtps_c__pyext
+[3.739s] [100%] Built target vehiclecontrol__rosidl_typesupport_c__pyext
+[3.750s] Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol -- -j16 -l16
+[3.752s] Invoking command in '/home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol
+[3.757s] -- Install configuration: ""
+[3.757s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/ament_index/resource_index/rosidl_interfaces/vehiclecontrol
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__struct.h
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__functions.c
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__functions.h
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.h
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/control.h
+[3.758s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_generator_c__visibility_control.h
+[3.759s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/library_path.sh
+[3.759s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/library_path.dsv
+[3.759s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_generator_c.so
+[3.759s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_generator_c.so" to ""
+[3.759s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[3.759s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[3.759s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[3.759s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[3.760s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.760s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_fastrtps_c.so
+[3.760s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_fastrtps_c.so" to ""
+[3.760s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[3.760s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[3.760s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[3.760s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_introspection_c.h
+[3.760s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.c
+[3.760s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.760s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_introspection_c.so
+[3.761s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_introspection_c.so" to ""
+[3.761s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_c.so
+[3.761s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_c.so" to ""
+[3.761s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[3.761s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[3.761s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.761s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[3.761s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__builder.hpp
+[3.761s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__struct.hpp
+[3.761s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.hpp
+[3.762s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__traits.hpp
+[3.762s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/control.hpp
+[3.762s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[3.762s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[3.762s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[3.762s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/dds_fastrtps
+[3.762s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[3.762s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.762s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_fastrtps_cpp.so
+[3.763s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.763s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol
+[3.763s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg
+[3.763s] -- Up-to-date: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail
+[3.763s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__type_support.cpp
+[3.763s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/include/vehiclecontrol/vehiclecontrol/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[3.763s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_introspection_cpp.so
+[3.763s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_introspection_cpp.so" to ""
+[3.763s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_cpp.so
+[3.764s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_typesupport_cpp.so" to ""
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/pythonpath.sh
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/pythonpath.dsv
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/top_level.txt
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/PKG-INFO
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.764s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_c.c
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/__init__.py
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/_vehiclecontrol_s.ep.rosidl_typesupport_introspection_c.c
+[3.765s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg
+[3.766s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/__init__.py
+[3.766s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/_control.py
+[3.766s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/_control_s.c
+[3.766s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/libvehiclecontrol__rosidl_generator_py.so
+[3.792s] Listing '/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol'...
+[3.793s] Compiling '/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/__init__.py'...
+[3.793s] Listing '/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg'...
+[3.793s] Compiling '/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/__init__.py'...
+[3.793s] Compiling '/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/msg/_control.py'...
+[3.798s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.798s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.799s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.799s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.799s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.799s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/local/lib/python3.10/dist-packages/vehiclecontrol/vehiclecontrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.799s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_generator_py.so
+[3.800s] -- Set runtime path of "/home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/lib/libvehiclecontrol__rosidl_generator_py.so" to ""
+[3.800s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/msg/Control.idl
+[3.800s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/msg/Control.msg
+[3.800s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/ament_index/resource_index/package_run_dependencies/vehiclecontrol
+[3.800s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/ament_index/resource_index/parent_prefix_path/vehiclecontrol
+[3.800s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/ament_prefix_path.sh
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/ament_prefix_path.dsv
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/path.sh
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/environment/path.dsv
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/local_setup.bash
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/local_setup.sh
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/local_setup.zsh
+[3.801s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/local_setup.dsv
+[3.802s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/package.dsv
+[3.802s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/ament_index/resource_index/packages/vehiclecontrol
+[3.802s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_cExport.cmake
+[3.802s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_cExport-noconfig.cmake
+[3.802s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cExport.cmake
+[3.803s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.803s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cExport.cmake
+[3.803s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.803s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cExport.cmake
+[3.803s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cExport-noconfig.cmake
+[3.803s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_cppExport.cmake
+[3.804s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.804s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.804s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cppExport.cmake
+[3.804s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.804s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cppExport.cmake
+[3.804s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrol__rosidl_typesupport_cppExport-noconfig.cmake
+[3.805s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_pyExport.cmake
+[3.805s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/export_vehiclecontrol__rosidl_generator_pyExport-noconfig.cmake
+[3.805s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/rosidl_cmake-extras.cmake
+[3.805s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.805s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.805s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_libraries-extras.cmake
+[3.806s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/ament_cmake_export_targets-extras.cmake
+[3.806s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.806s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.806s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrolConfig.cmake
+[3.806s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/cmake/vehiclecontrolConfig-version.cmake
+[3.806s] -- Installing: /home/ashy/ROS2-ABAJA-DEV/install/vehiclecontrol/share/vehiclecontrol/package.xml
+[3.810s] Invoked command in '/home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/ROS2-ABAJA-DEV/build/vehiclecontrol
