@@ -1,6 +1,0 @@
-setup.py
-vehiclecontrol/__init__.py
-vehiclecontrol.egg-info/PKG-INFO
-vehiclecontrol.egg-info/SOURCES.txt
-vehiclecontrol.egg-info/dependency_links.txt
-vehiclecontrol.egg-info/top_level.txt

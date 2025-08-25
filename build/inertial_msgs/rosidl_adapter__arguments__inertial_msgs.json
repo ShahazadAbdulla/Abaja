@@ -1,6 +1,0 @@
-{
-  "package_name": "inertial_msgs",
-  "non_idl_tuples": [
-    "/home/ashy/ROS2-ABAJA-DEV/src/inertial_msgs:msg/Pose.msg"
-  ]
-}

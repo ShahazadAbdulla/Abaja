@@ -1,6 +1,0 @@
-{
-  "package_name": "feedback",
-  "non_idl_tuples": [
-    "/home/ashy/ROS2-ABAJA-DEV/src/feedback:msg/Velocity.msg"
-  ]
-}

@@ -1,6 +1,0 @@
-setup.py
-feedback/__init__.py
-feedback.egg-info/PKG-INFO
-feedback.egg-info/SOURCES.txt
-feedback.egg-info/dependency_links.txt
-feedback.egg-info/top_level.txt

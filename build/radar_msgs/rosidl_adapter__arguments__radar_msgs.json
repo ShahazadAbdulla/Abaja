@@ -1,7 +1,0 @@
-{
-  "package_name": "radar_msgs",
-  "non_idl_tuples": [
-    "/home/ashy/ROS2-ABAJA-DEV/src/radar_msgs:msg/RadarTrack.msg",
-    "/home/ashy/ROS2-ABAJA-DEV/src/radar_msgs:msg/RadarTrackList.msg"
-  ]
-}

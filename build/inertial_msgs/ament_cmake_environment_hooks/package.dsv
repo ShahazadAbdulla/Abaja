@@ -1,4 +1,0 @@
-source;share/inertial_msgs/local_setup.bash
-source;share/inertial_msgs/local_setup.dsv
-source;share/inertial_msgs/local_setup.sh
-source;share/inertial_msgs/local_setup.zsh
