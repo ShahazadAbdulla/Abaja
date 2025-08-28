@@ -17,6 +17,8 @@ find_package(geometry_msgs REQUIRED)
 # Install Python scripts
 install(PROGRAMS
   scripts/radar_node.py
+  scripts/throttlecan.py
+  scripts/steering.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -39,8 +39,8 @@ class AEBController(Node):
         self.RADAR_MONITORING_RANGE = 40.0  # Monitor obstacles from 40 meters
         
         # PERMANENT STOP parameters
-        self.DANGER_ZONE_MIN = 5.0  # Start danger zone at 4 meters
-        self.DANGER_ZONE_MAX = 7.5  # End danger zone at 8 meters
+        self.DANGER_ZONE_MIN = 5.0  # Start danger zone at  meters
+        self.DANGER_ZONE_MAX = 7.5  # End danger zone at meters
         self.VEHICLE_PATH_WIDTH = 3.0  # Vehicle path width in meters
         self.ANY_OVERLAP_THRESHOLD = 0.1  # ANY overlap triggers response
         self.IN_PATH_THRESHOLD = 1.5  # Object within 1.5m of center is "in front"
