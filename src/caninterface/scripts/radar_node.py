@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-# --- IMPORT YOUR NEW CUSTOM MESSAGES ---
-from radar_msgs.msg import RadarTrackList
+
+from radar_msgs.msg import RadarTrack
 
 import can
 import cantools
@@ -83,7 +83,7 @@ class RadarPublisherNode(Node):
         self.get_logger().info("--- Starting RADAR Publisher Node ---")
 
         # --- Publisher using the CUSTOM message type ---
-        self.publisher_ = self.create_publisher(RadarTrackList, '/RadarObjects', 10)
+        self.publisher_ = self.create_publisher(RadarTrack, '/RadarObjects', 10)
         
         # --- Logging Setup ---
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -141,27 +141,17 @@ class RadarPublisherNode(Node):
 
     def publish_valid_tracks(self):
         # Create an instance of our custom list message
-        radar_list_msg = RadarTrackList()
-        
-
-
         for tid, track in self.track_manager.valid_tracks.items():
-            data = track['data']
-            
-            # Create an instance of our custom single object message
-            obj_msg = RadarTrackList()
-            
-            # Populate the message fields with the filtered data
-            obj_msg.tracking_id = tid
-            obj_msg.x_distance = data['x']
-            obj_msg.y_distance = data['y']
-            obj_msg.vx= data['vx']
-            obj_msg.vy = data['vy']
-            
-            # Add the completed object message to the list
-            radar_list_msg.objects.append(obj_msg)
+                data = track['data']
         
-        self.publisher_.publish(radar_list_msg)
+                track_msg = RadarTrack()
+                track_msg.tracking_id = tid
+                track_msg.x_distance = data['x']
+                track_msg.y_distance = data['y']
+                track_msg.vx = data['vx']
+                track_msg.vy = data['vy']
+        
+                self.publisher_.publish(track_msg)
 
     def on_shutdown(self):
         self.get_logger().info("--- Program Stopping ---")

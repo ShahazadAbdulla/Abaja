@@ -19,6 +19,7 @@ find_package(cv_bridge REQUIRED)
 install(PROGRAMS
   scripts/lka.py
   script/lanedetection.py
+  script/image_publisher_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
