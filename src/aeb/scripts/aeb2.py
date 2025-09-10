@@ -18,3 +18,15 @@ class Obstacletype(Enum)
     PEDESTRIAN = "pedestrian"
     MOTORCYCLE = "motorcycle_cycle"
 
+class AEBcontrollernode()
+    def __init__ (self)
+        super().__init__('aeb_controller_node')
+        self.get_logger().info("Starting Permanent AEB Controller...")
+
+ 
+        self.TARGET_SPEED_MS = self.TARGET_SPEED_KMPH / 3.6  # Convert to m/s
+        self.ACCELERATION_DISTANCE = 40.0  # Accelerate over 100 meters
+        self.BRAKING_DISTANCE_THRESHOLD = 6.0  # Emergency stop at 6 meters
+        self.BRAKING_DECELERATION = 8.0  # Brake at 8 m/s²
+        self.RADAR_MONITORING_RANGE = 40.0  # Monitor obstacles from 40 meters
+
