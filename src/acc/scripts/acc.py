@@ -21,7 +21,7 @@ class SimpleACCController(Node):
         self.get_logger().info("Starting Simplified ACC Controller Node...")
         
         # === Core ACC Parameters ===
-        self.TARGET_SPEED_KMPH = 25.0
+        self.TARGET_SPEED_KMPH = 30.0
         self.TARGET_SPEED_MS = self.TARGET_SPEED_KMPH / 3.6
 
         # Distance to start tracking a lead vehicle
@@ -60,8 +60,9 @@ class SimpleACCController(Node):
         closest_distance_in_path = float('inf')
         
         for obj in msg.objects:
-            # Consider objects that are in front and within a 2-meter wide path
-            if obj.x_distance > 0.1 and abs(obj.y_distance) < 2.0: 
+            # Consider objects that are in front and within a 1.5-meter lateral path
+            # --- THIS IS THE MODIFIED LINE ---
+            if obj.x_distance > 0.1 and abs(obj.y_distance) <= 1.5: 
                 if obj.x_distance < closest_distance_in_path:
                     closest_distance_in_path = obj.x_distance
         
