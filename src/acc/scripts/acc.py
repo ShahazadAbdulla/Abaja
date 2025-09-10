@@ -28,7 +28,7 @@ class SimpleACCController(Node):
         self.TRACKING_ENGAGE_DISTANCE = 30.0 
         
         # The ideal distance to maintain behind a lead vehicle
-        self.TARGET_FOLLOW_DISTANCE = 8.0 
+        self.TARGET_FOLLOW_DISTANCE = 4.0 
 
         # === Control Gains (How aggressively the car reacts) ===
         # Gain for cruising speed control

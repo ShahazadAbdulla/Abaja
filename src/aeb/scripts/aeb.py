@@ -29,8 +29,8 @@ class AccelerationTestNode(Node):
         self.DELAY_AFTER_FEEDBACK_SECONDS = 2.0
 
         # === RADAR SAFETY PARAMETERS ===
-        self.OBSTACLE_FORWARD_DISTANCE = 6.0
-        self.OBSTACLE_LATERAL_DISTANCE = 1.5
+        self.OBSTACLE_FORWARD_DISTANCE = 3.0
+        self.OBSTACLE_LATERAL_DISTANCE = 0.5
         self.OBSTACLE_CLEAR_TIMEOUT = 0.2
 
         # === State variables ===
