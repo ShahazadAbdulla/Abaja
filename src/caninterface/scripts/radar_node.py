@@ -12,7 +12,7 @@ import csv
 from datetime import datetime
 
 # --- Configuration and TrackManager Class remain the same ---
-CAN_INTERFACE = 'can1'
+CAN_INTERFACE = 'can2'
 DBC_FILE = 'starkenn_radar.dbc'
 FILTER_CONFIG = {
     'ROI_MIN_X': 0.8, 'ROI_MAX_X': 50.0, 'ROI_MIN_Y': -2.0, 'ROI_MAX_Y': 2.0,

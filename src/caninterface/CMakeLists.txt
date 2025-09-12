@@ -12,6 +12,17 @@ find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(vehiclecontrol REQUIRED)
+find_package(feedback REQUIRED)
+
+add_executable(dbw_interface_node scripts/dbw_interface_node.cpp)
+ament_target_dependencies(dbw_interface_node rclcpp vehiclecontrol feedback)
+
+install(
+  TARGETS
+    dbw_interface_node # Add your executable name here
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 
 # Install Python scripts
@@ -19,6 +30,7 @@ install(PROGRAMS
   scripts/radar_node.py
   scripts/throttlecan.py
   scripts/steering.py
+  scripts/dbw_interface_node.cpp
   DESTINATION lib/${PROJECT_NAME}
 )
 
