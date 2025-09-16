@@ -281,7 +281,7 @@ class LaneDetectionNode(Node):
         # ===== CHANGE START: Use direct video capture instead of ROS topic =====
         self.get_logger().info("Attempting to open video source /dev/video3...")
         # Corresponds to /dev/video3
-        self.cap = cv2.VideoCapture(2)
+        self.cap = cv2.VideoCapture(0)
         if not self.cap.isOpened():
             self.get_logger().error(f"❌ Failed to open video source at index {self.cap}. Please check camera connection and permissions.")
             rclpy.shutdown()

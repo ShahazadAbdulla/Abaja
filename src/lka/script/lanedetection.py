@@ -277,7 +277,7 @@ class LaneDetectionNode(Node):
         
         self._initialize_model()
         self.lane_publisher = self.create_publisher(String, '/lane_coordinates', 10)
-        self.image_subscription = self.create_subscription(RosImage, '/RGBImage', self.image_callback, 10)
+
         self.result_timer = self.create_timer(1.0 / self.processing_fps, self.publish_results)
         self.processing_thread = threading.Thread(target=self._processing_worker, daemon=True)
         self.processing_thread.start()
@@ -323,66 +323,76 @@ class LaneDetectionNode(Node):
         y = (img_h - y_px) * (img_h_m / img_h)
         return (x, y)
 
-    def image_callback(self, msg: RosImage):
-        try:
-            cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
-            self.image_queue.put_nowait((cv_image, time.time()))
-            self.frame_count += 1
-        except queue.Full:
-            # Remove oldest frame if queue is full
-            try:
-                self.image_queue.get_nowait()
-                self.image_queue.put_nowait((cv_image, time.time()))
-            except queue.Empty:
-                pass
-        except Exception as e:
-            self.get_logger().debug(f"Image callback error: {e}")
-
     def _processing_worker(self):
-        """Background thread for lane detection processing"""
+        """Background thread for CSI camera capture and lane detection processing"""
+
+        # --- GStreamer Pipeline for IMX477 CSI Camera ---
+        # This pipeline is optimized for NVIDIA Jetson platforms using the hardware encoder.
+        # - sensor-id=0: Selects the first CSI camera. Change if you have multiple.
+        # - width/height: Set to 1280x720 to match the model's expected input.
+        # - flip-method=0: No rotation. Change to 2 if your camera is mounted upside down.
+        gstreamer_pipeline = (
+            "nvarguscamerasrc sensor-id=0 ! "
+            "video/x-raw(memory:NVMM), width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)30/1 ! "
+            "nvvidconv flip-method=0 ! "
+            "video/x-raw, width=(int)1280, height=(int)720, format=(string)BGRx ! "
+            "videoconvert ! "
+            "video/x-raw, format=(string)BGR ! appsink"
+        )
+        
+        # Initialize VideoCapture with the GStreamer pipeline
+        cap = cv2.VideoCapture(gstreamer_pipeline, cv2.CAP_GSTREAMER)
+
+        if not cap.isOpened():
+            self.get_logger().error("❌ Failed to open GStreamer pipeline for the CSI camera.")
+            self.get_logger().error("   Check that the camera is connected and the Jetson services are running.")
+            return
+
+        self.get_logger().info("✅ CSI Camera feed opened successfully via GStreamer.")
+
         while rclpy.ok():
-            try:
-                cv_image, timestamp = self.image_queue.get(timeout=1.0)
-                
-                # Attempt lane detection
-                if self.lane_detector is not None:
-                    try:
-                        result_img, success = self.lane_detector.detect_lanes(cv_image)
-                        if success:
-                            lane_data = self._extract_lane_coordinates()
-                        else:
-                            lane_data = self._generate_fallback_data("detection_failed")
-                            result_img = cv_image.copy()
-                    except Exception as e:
-                        self.get_logger().debug(f"Detection error: {e}")
-                        lane_data = self._generate_fallback_data("detection_exception")
-                        result_img = cv_image.copy()
-                else:
-                    # No model available, use fallback
-                    result_img = cv_image.copy()
-                    lane_data = self._generate_fallback_data("no_model")
-                
-                # Queue the result
-                try:
-                    self.result_queue.put_nowait((result_img, lane_data, timestamp))
-                except queue.Full:
-                    # Remove old result and add new one
-                    try:
-                        self.result_queue.get_nowait()
-                        self.result_queue.put_nowait((result_img, lane_data, timestamp))
-                    except queue.Empty:
-                        pass
-                        
-            except queue.Empty:
-                # No images available, generate fallback data
-                lane_data = self._generate_fallback_data("no_image")
-                try:
-                    self.result_queue.put_nowait((None, lane_data, time.time()))
-                except queue.Full:
-                    pass
-            except Exception as e:
-                self.get_logger().debug(f"Processing worker error: {e}")
+            ret, cv_image = cap.read()
+            timestamp = time.time()
+
+            if not ret:
+                self.get_logger().warn("⚠️ Dropped a frame or camera disconnected. Retrying...")
                 time.sleep(0.1)
+                continue
+            
+            self.frame_count += 1
+
+            # Attempt lane detection
+            if self.lane_detector is not None:
+                try:
+                    result_img, success = self.lane_detector.detect_lanes(cv_image)
+                    if success:
+                        lane_data = self._extract_lane_coordinates()
+                    else:
+                        lane_data = self._generate_fallback_data("detection_failed")
+                        result_img = cv_image.copy()
+                except Exception as e:
+                    self.get_logger().debug(f"Detection error: {e}")
+                    lane_data = self._generate_fallback_data("detection_exception")
+                    result_img = cv_image.copy()
+            else:
+                # No model available, use fallback
+                result_img = cv_image.copy()
+                lane_data = self._generate_fallback_data("no_model")
+            
+            # Queue the result for the main thread to publish
+            try:
+                self.result_queue.put_nowait((result_img, lane_data, timestamp))
+            except queue.Full:
+                # Remove old result and add new one
+                try:
+                    self.result_queue.get_nowait()
+                    self.result_queue.put_nowait((result_img, lane_data, timestamp))
+                except queue.Empty:
+                    pass
+        
+        # Release the camera when the node is shut down
+        self.get_logger().info("Releasing camera capture...")
+        cap.release()
 
     def _extract_lane_coordinates(self) -> dict:
         """Extract lane coordinates and calculate center line with multiple strategies"""

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(lka)
+project(perception)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -8,23 +8,17 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(cv_bridge REQUIRED)
-
 
 
 # Install Python scripts
 install(PROGRAMS
-  scripts/lka.py
-  script/lanedetection.py
-  script/image_publisher_node.py
-  script/lka_ros_node.py
+  scripts/campublisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
-
-
 
 
 if(BUILD_TESTING)
@@ -38,11 +32,5 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-
-# Install launch files
-install(DIRECTORY launch script models
-  DESTINATION share/${PROJECT_NAME}
-)
 
 ament_package()
