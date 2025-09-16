@@ -13,7 +13,7 @@ cv2.namedWindow("Frame", cv2.WINDOW_AUTOSIZE)
 
 while True:
     # Read a frame from the video device
-    # ret is a boolean, true if the frame was read successfully
+    # #ret is a boolean, true if the frame was read successfully
     # frame is the actual image frame
     ret, frame = cap.read()
 
