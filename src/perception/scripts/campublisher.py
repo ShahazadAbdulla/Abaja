@@ -1,6 +1,6 @@
 import cv2
 
-# Open the /dev/video0 device (index 0)
+# #Open the /dev/video0 device (index 0)
 cap = cv2.VideoCapture(0)
 
 # Check if the camera opened successfully
